@@ -1,0 +1,24 @@
+{
+  "tables": [
+    {
+      "name": "users",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "primary_key": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "primary_key": false
+        },
+        {
+          "name": "age",
+          "type": "INTEGER",
+          "primary_key": false
+        }
+      ]
+    }
+  ]
+}
